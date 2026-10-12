@@ -4,86 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Personal profile of Nothando Vimbai, CIS student at Africa University.">
-    <title>Nothando Vimbai - Profile</title>
-    <link rel="stylesheet" href="style1.css" >
+    <title>Nothando Vimbai | Profile</title>
+    <link rel="stylesheet" href="style1.css">
 </head>
 <body>
     <header>
-        <h1>Nothando Vimbai</h1>
-        <p>Computer lnformation Systems Student</p> 
-        <nav>
-        
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#contact">Contact</a>
-            <a href="#projects">Projects</a>
-        </nav>
+        <div class="container">
+            <div>
+                <h1>Nothando Vimbai</h1>
+                <p>Computer Information Systems Student</p>
+            </div>
 
+            <nav aria-label="Main navigation">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
     </header>
-        
-        <main> 
-            <section id="about" class="about-section">
-                 <h2>ABOUT ME</h2>
-                 <p>My name is Nothando and l study Computer lnformation Systems at Africa University. l chose CIS because l like solving problems and l want to build apps one day.</p>
-                 <aside>
-                    <h3>Quick Facts</h3>
-                    <ul>
-                        <li>Africa University, Zimbabwe</li>
-                        <li>Year 2 - CIS Programme</li>
-                        <li>I am interested in web development and AI tools</li>
-                    </ul>
-                 </aside>
-            </section>
 
-            <section id="skills" class="skills-section">
-                <h2>SKILLS</h2>
+    <main>
+        <section id="about" class="about-section">
+            <div>
+                <h2>About Me</h2>
+                <p>My name is Nothando and I study Computer Information Systems at Africa University. I chose CIS because I like solving problems and I want to build apps one day.</p>
+            </div>
+
+            <aside>
+                <h3>Quick Facts</h3>
                 <ul>
-                    <li> HTML & CSS</li>
-                    <li>Web Development</li>
-                    <li>Problem Solving</li>
+                    <li>Africa University, Zimbabwe</li>
+                    <li>Year 2 - CIS Programme</li>
+                    <li>Interested in web development and AI tools</li>
                 </ul>
+            </aside>
+        </section>
 
-            </section>
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <ul class="skill-list">
+                <li>HTML &amp; CSS</li>
+                <li>Web Development</li>
+                <li>Problem Solving</li>
+                <li>Teamwork</li>
+            </ul>
+        </section>
 
-            <section id="projects">
-    <h2>Projects</h2>
-    <article>
-        <h3>Personal Profile Page</h3>
-        <p>A semantic HTML5 profile page built for the Web Technologies assignment at Africa University. It demonstrates semantic elements, form validation, and accessibility best practices.</p>
-    </article>
-</section>
-            
-           <section id="contact" class="contact-section">
-    <h2>Contact Me</h2>
-    <form action="#" method="post">
+        <section id="projects" class="projects-section">
+            <h2>Projects</h2>
+            <article>
+                <h3>Personal Profile Page</h3>
+                <p>A semantic HTML5 profile page built for the Web Technologies assignment at Africa University. It demonstrates semantic elements, form validation, and accessibility best practices.</p>
+            </article>
+        </section>
 
-        <label for="full-name">Full Name</label>
-        <input type="text" id="full-name" name="full-name" required minlength="2">
+        <section id="contact" class="contact-section">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" name="full-name" required minlength="2">
 
-        <label for="email">Email Address</label>
-        <input type="email" id="email" name="email" required>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
 
-        <label for="phone">Phone Number</label>
-        <input type="tel" id="phone" name="phone" pattern="[\+0-9\s\-]{7,15}">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" pattern="[\+0-9\s\-]{7,15}">
 
-        <label for="subject">Subject</label>
-        <input type="text" id="subject" name="subject" required minlength="3">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required minlength="3">
 
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="5" required minlength="10"></textarea>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required minlength="10"></textarea>
 
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
 
-        <button type="submit">Send Message</button>
-
-    </form>
-</section>
-                
-        </main>
-         <footer>
-                    <p>&copy; 2026 Nothando Vimbai. All rights reserved</p>
-                 </footer>
-
-
-    
+    <footer>
+        <p>&copy; 2026 Nothando Vimbai. All rights reserved.</p>
+    </footer>
 </body>
 </html>
