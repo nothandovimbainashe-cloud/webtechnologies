@@ -16,3 +16,16 @@ id="contact" to each section so the navigation now works properly.
 
 See PROMPT_LOG.md for the prompt I used, the AI output, my edited version, 
 and my reflection on what I changed.
+## Files
+
+- `profile.html` – page structure and content
+- `style.css` – maroon styling, layout and responsive design
+- `africa-university-logo.png` – university logo in the header
+
+## Styling
+
+The page uses a maroon colour scheme with styled section boxes, skill tags,
+a highlighted Quick Facts box and a contact form with focus effects. It also
+adjusts its layout for phone screens. An earlier version of the stylesheet
+was written with a friend's help. I replaced it with a new `style.css`,
+built with help from an AI assistant (see PROMPT_LOG.md, entry 2).
